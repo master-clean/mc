@@ -1,0 +1,259 @@
+
+header{
+/* background-image = الخلفيه */
+  background-image: url(imge/cleaners-house-cleaning-services-netherlands_8.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+
+} 
+
+
+#my-dialog-box {
+    display: none; /* hide the dialog box initially */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+  z-index: 444;
+
+}
+#my-dialog-box1 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 520px;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}
+#my-dialog-box2 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width:520px;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}
+
+#my-dialog-box3 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 520px;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}
+#my-dialog-box4 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 520px;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}
+#my-dialog-box5 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 80%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}#my-dialog-box6 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 80%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}#my-dialog-box7 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 80%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}#my-dialog-box8 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 55%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}#my-dialog-box9 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 55%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}#my-dialog-box10 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 55%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}
+#my-dialog-box11 {
+  display: none; /* hide the dialog box initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 55%;
+  max-height: calc(115vh - 100px); /* set a maximum height that allows scrolling */
+  overflow-y: auto; /* add vertical scroll if needed */
+z-index: 5555;
+
+}
+
+header::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(233, 55, 55);
+  opacity: 0.7
+}
+.container{
+  padding: 10px 0;
+  position: relative;
+}
+/* nav-bar s */
+.navbar-nav .nav-link {
+  color: white;
+} 
+.fixed-top.scrolled { 
+  background-color: rgba(141, 141, 141, 0.734) !important;
+  transition: background-color 200ms linear;
+}
+
+
+.navbar .navbar-nav li a {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}  
+.navbar .navbar-nav li a i {
+  padding: 5px 0px; 
+  margin: 0 -5;
+}
+
+.navbar .navbar-nav li a:hover {
+   color: red;} 
+
+  
+
+.h-fontsize{
+  font-size: 70px;
+}
+
+.nav-item{
+  font-weight: bold;
+  padding: 16px 10px; 
+}
+
+.hover-cancel:hover{
+  background-color: transparent !important; 
+}
+
+.margin-center{
+  display: block;
+  margin: auto ;
+}
+
+.line{
+  height: 1px ;
+  width: 90%; 
+  margin: auto;
+  background-color: rgba(56, 55, 55, 0.445);
+}
+.bg-red{
+  background-color: brown;
+}
+/* nav-bar end */
+
+/* سكشن معلومات */
+
